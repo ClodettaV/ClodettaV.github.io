@@ -1,6 +1,6 @@
 
   body {
-    background: rgb(116, 196, 223);
+    background: rgb(230, 232, 233);
   }
   
   .skyblue {
@@ -8,41 +8,48 @@
   }
   
   .box{
-    padding: 10px;
-    background: rgb(28, 228, 211);
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
+    padding: 0px;
+    background: rgb(53, 139, 139);
+    height: 50px ;
     align-content: center;
   }
   
-  .navbar {
+ .navbar {
     margin-right: 0px;
     margin-left: 0px;
-    padding: 25px;
-    background: rgb(28, 228, 211);
-  }
-  
+    margin-bottom:10px;
+    padding: 0px;
+    background: rgb(247, 250, 250);
+    }
+
+    
   .navbar li {
     display: d-block;
-    padding: 10px;
+    padding: 0px;
     margin-right: 0px;
     margin-left: 0px;
     cursor: pointer;
   }
   h1 {
-    font-size: 36px;
-  }
+    font-size: 30px;
+     color:rgb(255, 255, 255);
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder
+  
+      }
   h2 {
-    font-size: 22px;
+    font-size: 25px;
+    color:rgb(53, 139, 139);
+    font-family: 'Times New Roman', Times, serif;
   }
   
   p{
-      font-size: 18px;
+      font-size: 15px;
+      font-family: Helvetica;
   }
   
-  .c-d{color:white;
+  .c-d{color:rgb(255, 255, 255);
     font-size: 30px;
   }
   
@@ -51,13 +58,12 @@
     padding: 0 10px 0 0;
   }
 
-  .latitude {
-    color: white;
-    font-family: verdana;
-    font-size: 45px;
-    background-color: rgb(28, 228, 211);
-    border: 1px solid rgb(28, 228, 211);
-      padding: 15px;
+  .index {
+    color: rgb(170, 168, 168);
+    font-family: Helvetica;
+    font-size: 15px;
+    background-color: rgb(251, 255, 255);
+    padding: 15px;
   }
 
   @media (max-width: 500px) {
@@ -67,6 +73,7 @@
     .box {
       margin-right: 22px;
       margin-left: 22px;
+      
     }
     .navbar ul {
       visibility: hidden;
@@ -76,7 +83,7 @@
     }
   }
   
-  .col-1 {width: 8%;}
+  .col-1 {width: 8%;} 
   .col-2 {width: 17%;}
   .col-3 {width: 24%;}
   .col-4 {width: 32%;}
