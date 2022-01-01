@@ -42,11 +42,13 @@
     font-size: 25px;
     color:rgb(53, 139, 139);
     font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder
   }
   
   p{
       font-size: 15px;
       font-family: Helvetica;
+      
   }
   
   .c-d{color:rgb(255, 255, 255);
@@ -64,10 +66,34 @@
     font-size: 15px;
     background-color: rgb(251, 255, 255);
     padding: 15px;
-  }
+       
+     }
 
-  @media (max-width: 500px) {
-    .navbar li {
+     .index2 {
+      color: rgb(170, 168, 168);
+      font-family: Helvetica;
+      font-size: 15px;
+      background-color: rgb(251, 255, 255);
+      padding: 15px;
+      width: 768px;
+      align-items: center;
+      justify-content: center;
+       }
+   
+    
+
+  @media (max-width: 576px) {
+
+    button {
+      background: rgb(53, 139, 139);
+
+    }
+
+    .navbar {
+      background: rgb(53, 139, 139);
+      }
+
+     .navbar li {
       padding: 10px;
     }
     .box {
@@ -76,29 +102,22 @@
       
     }
     .navbar ul {
-      visibility: hidden;
+      visibility: show;
+      background: rgb(249, 252, 252);
     }
+    
     #nav-select {
       visibility: visible;
     }
-  }
-  
-  .col-1 {width: 8%;} 
-  .col-2 {width: 17%;}
-  .col-3 {width: 24%;}
-  .col-4 {width: 32%;}
-  .col-5 {width: 40%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 60%;}
-  .col-8 {width: 65%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 82%;}
-  .col-11 {width: 92%;}
-  .col-12 {width: 100%;}
-  
-  @media only screen and (max-width: 768px) {
 
-      [class*="col-"] {
-          width: 100%;
-      }
+    .table {
+      width: 50%;
+    }
+
   }
+  
+  
+
+   
+  
+  
